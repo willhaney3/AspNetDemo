@@ -5999,3 +5999,57 @@ DEBUG 2018-03-15 13:10:44,532 [1    ] Abp.Logging.LogHelper                    -
 DEBUG 2018-03-15 13:10:57,689 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"982febf0-30f3-4055-8f8c-375d975edb8b","IpAddress":"172.26.37.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-15T13:10:57.6823623-07:00","Properties":{}}
 DEBUG 2018-03-15 13:10:57,727 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 982febf0-30f3-4055-8f8c-375d975edb8b
 DEBUG 2018-03-15 13:11:05,640 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 982febf0-30f3-4055-8f8c-375d975edb8b
+DEBUG 2018-03-15 13:41:06,348 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-03-15 13:41:06,362 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2018-03-15 13:41:06,369 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AspNetDemo.Web.AspNetDemoWebModule, AspNetDemo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,371 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AspNetDemo.AspNetDemoDataModule, AspNetDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,372 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,372 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,372 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,372 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,372 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AspNetDemo.AspNetDemoCoreModule, AspNetDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AspNetDemo.AspNetDemoApplicationModule, AspNetDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,373 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AspNetDemo.Api.AspNetDemoWebApiModule, AspNetDemo.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,374 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,374 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,374 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,374 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,374 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.4.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:06,378 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2018-03-15 13:41:06,658 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-15 13:41:06,658 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-15 13:41:06,658 [1    ] o.Configuration.LanguageManagementConfig - Converted AspNetDemo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-15 13:41:06,658 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-03-15 13:41:07,006 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: AspNetDemo.EntityFramework.AspNetDemoDbContext, AspNetDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-03-15 13:41:09,436 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-03-15 13:41:09,459 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-03-15 13:41:09,466 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-03-15 13:41:09,469 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AspNetDemo
+DEBUG 2018-03-15 13:41:09,470 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-03-15 13:41:09,570 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-03-15 13:41:09,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2018-03-15 13:41:09,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AspNetDemo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-03-15 13:41:09,629 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AspNetDemo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-03-15 13:41:09,629 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AspNetDemo.Users.Dto.CreateUserDto
+DEBUG 2018-03-15 13:41:09,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AspNetDemo.Users.Dto.UpdateUserDto
+DEBUG 2018-03-15 13:41:09,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AspNetDemo.Users.Dto.UserDto
+DEBUG 2018-03-15 13:41:09,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AspNetDemo.Roles.Dto.CreateRoleDto
+DEBUG 2018-03-15 13:41:09,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AspNetDemo.Roles.Dto.PermissionDto
+DEBUG 2018-03-15 13:41:09,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AspNetDemo.Roles.Dto.RoleDto
+DEBUG 2018-03-15 13:41:09,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AspNetDemo.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-03-15 13:41:09,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AspNetDemo.MultiTenancy.Dto.EditTenantDto
+DEBUG 2018-03-15 13:41:09,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AspNetDemo.MultiTenancy.Dto.TenantDto
+DEBUG 2018-03-15 13:41:09,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AspNetDemo.Web.Models.Account.TenantChangeViewModel
+DEBUG 2018-03-15 13:41:09,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AspNetDemo.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2018-03-15 13:41:11,624 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AspNetDemo.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2018-03-15 13:41:11,625 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AspNetDemo.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2018-03-15 13:41:11,626 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AspNetDemo.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2018-03-15 13:41:11,627 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AspNetDemo.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2018-03-15 13:41:11,628 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AspNetDemo.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2018-03-15 13:41:11,628 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'AspNetDemo.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2018-03-15 13:41:26,130 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a0220d46-77d4-4e55-b06d-3feb26b8ba0a","IpAddress":"172.26.37.1","TenantId":null,"UserId":1,"ConnectTime":"2018-03-15T13:41:26.122085-07:00","Properties":{}}
+DEBUG 2018-03-15 13:41:26,169 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a0220d46-77d4-4e55-b06d-3feb26b8ba0a
+DEBUG 2018-03-15 13:41:32,193 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a0220d46-77d4-4e55-b06d-3feb26b8ba0a
